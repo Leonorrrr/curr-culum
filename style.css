@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(162, 140, 184);
+ /*background-image: url('https://img.freepik.com/vector-gratis/fondo-diseno-patrones-organicos-abstractos_1048-19286.jpg?semt=ais_hybrid&w=740&q=80');*/
+   background-size: contain;
+   background-repeat: no-repeat;
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+h2{
+    background-color:burlywood ;
+ font-family: "Asimovian", sans-serif;
+ display: inline-flex;
+
+}
+#dadespersonals{
+    background-color:antiquewhite ;
+    font-family: "SUSE Mono", sans-serif;
+    
+}
+
+.academiques{
+    background-color:antiquewhite ;
+    font-family: "SUSE Mono", sans-serif;
+   
+}
+
+#experiencia{
+background-color:antiquewhite ;
+font-family: "SUSE Mono", sans-serif;
+
+}
+
+#altres{
+background-color:antiquewhite ;
+font-family: "SUSE Mono", sans-serif;
+
+}
