@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(162, 140, 184);
+  /*  background-color: rgb(162, 140, 184); */
  /*background-image: url('https://img.freepik.com/vector-gratis/fondo-diseno-patrones-organicos-abstractos_1048-19286.jpg?semt=ais_hybrid&w=740&q=80');*/
    background-size: contain;
    background-repeat: no-repeat;
@@ -8,31 +8,54 @@ body{
 }
 
 h2{
-    background-color:burlywood ;
+ background-color:burlywood ;
  font-family: "Asimovian", sans-serif;
- display: inline-flex;
-
 }
+
 #dadespersonals{
     background-color:antiquewhite ;
     font-family: "SUSE Mono", sans-serif;
-    
+    display:inline-block;
+   width: 40%;
+   height: 400px;
+   margin-right: 25px; 
+   margin-bottom: 25px;  
 }
 
 .academiques{
     background-color:antiquewhite ;
     font-family: "SUSE Mono", sans-serif;
-   
+    display:inline-block;
+    width: 40%;
+    height: 400px;
+    margin-right: 25px;
+    margin-bottom: 25px;    
 }
 
 #experiencia{
 background-color:antiquewhite ;
 font-family: "SUSE Mono", sans-serif;
+display: inline-block;
+width: 40%;
+height: 400px;
+margin-right: 25px;
+margin-bottom: 25px;  
 
 }
 
 #altres{
 background-color:antiquewhite ;
 font-family: "SUSE Mono", sans-serif;
+display: inline-block;
+width: 40%;
+height: 400px;
+margin-right: 25px;
 
+}
+
+img{
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+ 
 }
