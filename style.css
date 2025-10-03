@@ -1,5 +1,5 @@
 body{
-  /*  background-color: rgb(162, 140, 184); */
+  background-color: rgb(142, 146, 116); 
  /*background-image: url('https://img.freepik.com/vector-gratis/fondo-diseno-patrones-organicos-abstractos_1048-19286.jpg?semt=ais_hybrid&w=740&q=80');*/
    background-size: contain;
    background-repeat: no-repeat;
@@ -58,4 +58,10 @@ img{
     margin: auto;
     margin-bottom: 25px;
  
+}
+
+nav{
+    display: inline-block;
+    width: 50%;
+
 }

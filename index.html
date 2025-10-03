@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CURRÍCULUM</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Asimovian&display=swap" rel="stylesheet">
@@ -13,22 +14,26 @@
 <link href="https://fonts.googleapis.com/css2?family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </head>
 <body>
-<img src="./img/foto.webp" width="10%"> 
+<img id="foto" src="./img/foto.webp" width="10%"> 
 
 <section id="dadespersonals">
     <h2>DADES PERSONALS</h2>
-    <P><strong>NOM:</strong> Leonor Lucero Goñalons</P>
-    <p><strong>CORREU ELECTRÒNIC:</strong> llucero21213@iesjoanramis.org</p>
-    <p><strong>TELÈFON:</strong> 191 919 191</p>
-    <p><strong>DATA DE NAIXEMENT:</strong> 14/01/2009</p>
+    <ul>
+   <li><P id="nom"><strong>NOM:</strong> Leonor Lucero Goñalons</P></li> 
+   <li><p><strong>CORREU ELECTRÒNIC:</strong> llucero21213@iesjoanramis.org</p></li> 
+    <li><p><strong>TELÈFON:</strong> 191 919 191</p></li>
+   <li><p><strong>DATA DE NAIXEMENT:</strong> 14/01/2009</p></li> 
+    </ul>
 </section> 
 
 <section class="academiques">
     <h2>DADES ACADÈMIQUES</h2>
-    <p><strong>EDUCACIÓ INFANTIL:</strong> La Salle Maó </p>
-    <p><strong>BATXILLERAT:</strong> La Salle Maó </p>
-     <p><strong>BATXILLERAT:</strong> La Salle Maó </p>
-      <p><strong>BATXILLERAT:</strong> IES Joan Ramis i Ramis </p>
+    <ul id="academy">
+    <li><p><strong>EDUCACIÓ INFANTIL:</strong> La Salle Maó </p></li>
+    <li><p><strong>EDUCACIÓ PRIMÀRIA:</strong> La Salle Maó </p></li>
+    <li><p><strong>EDUCACIÓ SECUNDÀRIA:</strong> La Salle Maó </p></li>
+    <li><p><strong>BATXILLERAT:</strong> IES Joan Ramis i Ramis </p></li>
+    </ul>
 
 </section> 
 
@@ -41,6 +46,18 @@
     <h2>ALTRES DADES</h2>
     <p><strong>IDIOMES:</strong> Castellà, català, anglès i alemany. </p>
 </section>
+
+<nav>
+<button onclick="canviNom()">CANVIAR D'IDENTITAT</button>
+<button onclick="canviFoto()">TRANSFORMAR EN SUPERGUERRER</button>
+<button onclick="canviaFons()">VIATJAR A MALIBU</button>
+<button onclick="tradueix()">APRENDRE IDIOMES</button>
+<button onclick="harryPotter()">TORNAR-SE INVISIBLE</button>
+<button onclick="afegirInfo()">AFEGIR INFORMACIÓ</button>
+<button onclick="canviColor()">PINTAR LLETRES</button>
+<button onclick="ferGran()">FER GROS</button>
+<button></button>
+</nav>
 
 </body>
 </html>
