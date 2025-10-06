@@ -13,7 +13,6 @@ document.getElementById("foto").style = "display:none"
 
 }
 
-
 function canviaFons(){
    let body = document.getElementsByTagName("body")[0]
    let foto = prompt("¿DÓNDE QUIERES VIAJAR?")
@@ -32,12 +31,16 @@ function afegirInfo(){
     llista.appendChild(element)
 }
 
-function canviColor(){
-let body = document.getElementsByTagName("body")[0]
-
+function ferGran(){
+    document.getElementById("foto").style = "width: 80%"
 }
 
-function ferGran(){
-let foto = 
+function colorLletra(){
+let body = document.getElementsByTagName("body")[0]
+body.style = " color: rebeccapurple;"
+}
+
+function Moviment(){
+    getElementsByTagName("body")[0].classList.add("logo");
 
 }

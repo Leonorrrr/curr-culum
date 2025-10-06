@@ -5,6 +5,7 @@ body{
    background-repeat: no-repeat;
     color: rgb(8, 8, 8);
     text-align: center;
+  
 }
 
 h2{
@@ -63,5 +64,9 @@ img{
 nav{
     display: inline-block;
     width: 50%;
+
+}
+
+logo{
 
 }
