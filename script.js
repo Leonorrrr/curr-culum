@@ -32,7 +32,7 @@ function afegirInfo(){
 }
 
 function ferGran(){
-    document.getElementById("foto").style = "width: 80%"
+    document.getElementById("foto").style = "width: 100%"
 }
 
 function colorLletra(){
